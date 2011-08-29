@@ -28,15 +28,3 @@ int, string...).
 You can use this script by mapping the function PhpDoc() to any
 key combination. Hit this on the line where the element to document
 resides and the doc block will be created directly above that line.
-
-Installation
-============
-
-For example include into your .vimrc:
-
-source ~/.vim/php-doc.vim
-imap <C-o> set paste<CR>:exe PhpDoc()<CR>:set nopaste<CR>i
-
-This includes the script and maps the combination <ctrl>+o (only in
-insert mode) to the doc function. 
-
